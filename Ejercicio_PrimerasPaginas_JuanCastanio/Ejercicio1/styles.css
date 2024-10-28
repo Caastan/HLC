@@ -1,0 +1,59 @@
+/* Reset básico para eliminar márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el cuerpo del programa */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Aseguramos que el cuerpo ocupe toda la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centrar el contenido en la pantalla */
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Estilo para la etiqueta h1 */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la etiqueta a */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para la etiqueta p */
+p {
+    font-size: 18px;
+    margin-top: 15px;
+}

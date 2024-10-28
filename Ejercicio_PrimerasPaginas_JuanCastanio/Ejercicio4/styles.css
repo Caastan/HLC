@@ -1,0 +1,27 @@
+/* Estilos para centrar y dar formato a la página */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para la clase container */
+.container {
+    margin-top: 50px;
+}
+
+/* Estilo para la etiqueta h2*/
+h2 {
+    font-size: 36px; /* Tamaño de fuente del título */
+}
+
+/* Estilo para la etiqueta h3 */
+h3 {
+    font-size: 26px; /* Tamaño de fuente del título */
+}
+
+/* Estilo para la etiqueta span */
+span {
+    font-size: 100px; /* Tamaño de fuente del emoticono */
+}

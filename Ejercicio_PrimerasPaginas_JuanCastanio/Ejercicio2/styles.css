@@ -1,0 +1,43 @@
+/* Reset básico para eliminar márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo de la etiqueta body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo del contenedor */
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Estilo de la etiqueta h2 */
+h2 {
+    font-size: 32px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el número */
+h2 span {
+    font-size: 48px;
+    font-weight: bold;
+    color: #28a745;
+}

@@ -1,0 +1,26 @@
+/* Estilos para centrar y dar formato a la página */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos para la clase contenedor */
+.container {
+    margin-top: 50px;
+}
+
+/* Estilo para la etiquela del titulo */
+h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+/* Estilo para el cuadro que muestra el color */
+.cuadro {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid #000;
+}
